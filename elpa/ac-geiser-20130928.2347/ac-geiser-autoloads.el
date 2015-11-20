@@ -1,10 +1,10 @@
 ;;; ac-geiser-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-
+(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads (ac-geiser-setup) "ac-geiser" "ac-geiser.el" (22092
-;;;;;;  10169 806888 343000))
+;;;### (autoloads nil "ac-geiser" "ac-geiser.el" (22095 6159 935033
+;;;;;;  582000))
 ;;; Generated autoloads from ac-geiser.el
 
 (defvar ac-source-geiser '((candidates . ac-source-geiser-candidates) (symbol . "g") (document . ac-geiser-documentation)) "\
@@ -18,16 +18,14 @@ This affects only the current buffer.
 
 ;;;***
 
-;;;### (autoloads nil nil ("ac-geiser-pkg.el") (22092 10169 826514
-;;;;;;  331000))
+;;;### (autoloads nil nil ("ac-geiser-pkg.el") (22095 6159 948930
+;;;;;;  561000))
 
 ;;;***
 
-(provide 'ac-geiser-autoloads)
 ;; Local Variables:
 ;; version-control: never
 ;; no-byte-compile: t
 ;; no-update-autoloads: t
-;; coding: utf-8
 ;; End:
 ;;; ac-geiser-autoloads.el ends here
